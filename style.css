@@ -1,0 +1,35 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#mapDiv {
+    height: 100%;
+}
+
+#coordsDiv {
+    position: absolute;
+    background: white;
+    border: 1px solid #000;
+    bottom: 50px;
+    right: 50px;
+    height: 50px;
+    width: 380px;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+#address {
+    width: 300px
+}
+
+#directionsPanel {
+    float: right;
+    width: 30%;
+    height: 100%;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Joojle Maps</title>
+        <link rel="stylesheet" href="style.css">
+        <!-- api key AIzaSyBPxNwKIhHEnM2N6fthcGB1wJ7AW6jgJIA -->
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBPxNwKIhHEnM2N6fthcGB1wJ7AW6jgJIA" charset="utf-8"></script>
+    </head>
+    <body>
+        <button id="btnTerrain">Terrain</button>
+        <button id="btnRoadmap">Roadmap</button>
+        <button id="btnSatellite">Satellite</button>
+        <button id="btnHybrid">Hybrid</button>
+        <div>
+            <input id="address" type="textbox">
+            <input type="button" value="Geocode" onclick='geocodeAddress()'>
+        </div>
+        <div class="">
+            <input type="text" id="start" placeholder="Start">
+            <input type="button" value="Get Route"  onclick="calcRoute()">
+        </div>
+        <div id="directionsPanel">
+
+        </div>
+
+        <div id="mapDiv"></div>
+        <div id="coordsDiv"></div>
+
+
+
+
+        <script src="app.js" charset="utf-8"></script>
+    </body>
+</html>
